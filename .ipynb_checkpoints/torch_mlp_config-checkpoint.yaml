@@ -1,5 +1,0 @@
-embeddings: 10
-hidden_nodes: 200
-num_char: 30
-num_layers: 10
-window: 3
