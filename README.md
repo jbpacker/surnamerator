@@ -14,14 +14,14 @@ To train a new GPT model,  run `lit_surnames.ipynb`.
 * `app.ipynb` - example code for the huggingface gradio
 * `lit_surnames.ipynb` - Most up to date training file for the transformer architecture.
 * `surnamerator.py` - Library for network models and utils.
-* `compiled_names.txt` - Dataset.
+* `first_names.txt`/`surnames.txt` - Dataset.
 * `data/` - Dataset creation.
 * `prototypes/` - Network architecture prototypes.
 * `models/` - Saved weights and configs.
 
 
 ### Dataset
-Dataset creation for `surnames.txt` is done in `./data`. `first_names.txt` was downloaded from [makemore](https://github.com/karpathy/makemore/blob/master/names.txt). Example data:
+Dataset creation for `surnames.txt` is done in `./data`. `first_names.txt` was downloaded from [makemore](https://github.com/karpathy/makemore/blob/master/names.txt). Example surname data:
 
 ```
 butterly
@@ -30,4 +30,4 @@ mouch
 ...
 ```
 
-The raw data was found at [fivethirtyeight](https://github.com/fivethirtyeight/data/tree/master/most-common-name), [data.world](https://data.world/crowdflower/transc-names-from-handwriting), and [cencus.gov](https://www.census.gov/topics/population/genealogy/data/2010_surnames.html).
+The raw data for surnames was found at [fivethirtyeight](https://github.com/fivethirtyeight/data/tree/master/most-common-name), [data.world](https://data.world/crowdflower/transc-names-from-handwriting), and [cencus.gov](https://www.census.gov/topics/population/genealogy/data/2010_surnames.html).
