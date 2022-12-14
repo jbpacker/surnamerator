@@ -21,7 +21,7 @@ To train a new GPT model,  run `lit_surnames.ipynb`.
 
 
 ### Dataset
-Dataset creation is done in `./data` and ultimately creates `compiled_names.txt`. The format is one name per line. For example:
+Dataset creation for `surnames.txt` is done in `./data`. `first_names.txt` was downloaded from [makemore](https://github.com/karpathy/makemore/blob/master/names.txt). Example data:
 
 ```
 butterly

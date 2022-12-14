@@ -9,7 +9,7 @@ epochs: 50000
 heads: 4
 lr: 0.0003
 model_type: gpt
-num_final_chars_in_dataset: 3
+num_final_chars_in_dataset: 2
 num_workers: 4
 resid_pdrop: 0.1
 stoi:
